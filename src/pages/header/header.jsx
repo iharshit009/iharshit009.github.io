@@ -41,7 +41,7 @@ export default class Header extends Component {
             class="nav_items nav_margin"
             target="_blank"
             rel="noopener noreferrer"
-            href="www.bit.ly/iharshit009"
+            href="http://bit.ly/iharshit009"
           >
             Résumé
           </a>
