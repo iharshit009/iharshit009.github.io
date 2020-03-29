@@ -1,0 +1,10 @@
+@import "./styles/index.scss";
+
+html,
+body {
+  font-size: 0.83vw;
+}
+
+body{
+    background-color: $backgroundColor;
+}

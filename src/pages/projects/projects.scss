@@ -1,0 +1,60 @@
+@import "../../index.scss";
+ 
+
+.projects {
+  display: grid;
+  margin: 1.375rem $leftRightPadding;
+  grid-template-columns: repeat(4, 23.9375rem);
+  justify-content: space-between;
+  grid-row-gap: 6.25rem;
+  .projects_unit {
+    background: $backgroundColor2;
+    opacity: 1;
+    height: 49.1875rem;
+    width: 23.9375rem;
+    position: relative;
+    // margin-right: 6.25rem;
+    .project_image {
+      width: 100%;
+      // height: 50%
+    }
+
+    .project_details {
+      padding: 0em 2.0625rem;
+    }
+
+    .project_title {
+      text-align: left;
+      font-size: 1.625rem;
+      letter-spacing: 0;
+      color: $white;
+      text-transform: uppercase;
+      opacity: 1;
+      padding-top: 0.625rem;
+    }
+
+    .project_description {
+      text-align: left;
+      font-size: 1.5rem;
+      letter-spacing: 0;
+      color: $darkWhite;
+      opacity: 1;
+      padding-top: 0.625rem;
+    }
+
+    .project_links {
+      position: absolute;
+      bottom: 1.6875rem;
+      button {
+        font-size: 1.125rem;
+        letter-spacing: 0;
+        color: $white;
+        text-transform: uppercase;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-right: 1.875rem;
+      }
+    }
+  }
+}
