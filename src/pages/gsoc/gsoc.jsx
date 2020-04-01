@@ -15,15 +15,17 @@ export default class Gsoc extends Component {
         const { pageNumber, numPages } = this.state;
 
         return (
-            <div style={{ width: '80%' }}>
-                <Document
-                    file={gsoc}
-                    onLoadSuccess={this.onDocumentLoadSuccess}
-                >
-                    <Page pageNumber={pageNumber} />
-                </Document>
-                <p>Page {pageNumber} of {numPages}</p>
-            </div>
+            <BlogsStructure>
+                <div style={{ width: '80%' }}>
+                    <Document
+                        file={gsoc}
+                        onLoadSuccess={this.onDocumentLoadSuccess}
+                    >
+                        <Page pageNumber={pageNumber} />
+                    </Document>
+                    <p>Page {pageNumber} of {numPages}</p>
+                </div>
+            </BlogsStructure>
         );
     }
 }

@@ -9,7 +9,7 @@ import Home from "./pages/home/home";
 import Projects from "./pages/projects/project";
 import About from "./pages/about/about";
 import Gsoc from "./pages/gsoc/gsoc";
-import Timeline from "./pages/timeline/timeline";
+import Timelinen from "./pages/timeline/timeline";
 
 export default class App extends Component {
   render() {
@@ -21,7 +21,7 @@ export default class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/gsoc" component={Gsoc} />
-          <Route path="/timeline" component={Timeline} />
+          <Route path="/timeline" component={Timelinen} />
         </Switch>
       </Router>
     );
