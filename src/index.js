@@ -8,7 +8,9 @@ import Header from "./pages/header/header";
 import Home from "./pages/home/home";
 import Projects from "./pages/projects/project";
 import About from "./pages/about/about";
-import Gsoc from "./pages/gsoc/django";
+import Gsoc from "./pages/gsoc/gsoc";
+import Gsoc from "./pages/timeline/timeline";
+
 export default class App extends Component {
   render() {
     return (
@@ -18,7 +20,8 @@ export default class App extends Component {
           <Route path="/" exact={true} component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
-          <Route path = "/gsoc" component = {Gsoc} />
+          <Route path="/gsoc" component={Gsoc} />
+          <Route path="/timeline" component={Timeline} />
         </Switch>
       </Router>
     );
