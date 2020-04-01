@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
 import { BlogsStructure } from "../../components/styled"
-
+import { Document, Page } from 'react-pdf';
+import gsoc from '../../static/projects/gsoc.pdf'
 export default class Gsoc extends Component {
-    render() {
-        return (
-            <BlogsStructure>
-                <a href="https://docs.google.com/document/d/18LEMlnO4Dyu864-1BLTiHF7FkYE8axgiMIym0xO8z6E/edit?usp=sharing">My organisation for Gsoc 20 is _______
+    state = {
+        numPages: 2,
+        pageNumber: 1,
+    }
+    onDocumentLoadSuccess = ({ numPages }) => {
+        this.setState({ numPages });
+    }
 
-                </a>
-            </BlogsStructure>
-        )
+    render() {
+        const { pageNumber, numPages } = this.state;
+
+        return (
+            <div style={{ width: '80%' }}>
+                <Document
+                    file={gsoc}
+                    onLoadSuccess={this.onDocumentLoadSuccess}
+                >
+                    <Page pageNumber={pageNumber} />
+                </Document>
+                <p>Page {pageNumber} of {numPages}</p>
+            </div>
+        );
     }
 }

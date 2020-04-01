@@ -61,6 +61,14 @@ export default class Header extends Component {
           >
             Timeline
           </Link>
+
+          <Link
+            activeClassName="nav_array_active"
+            to="/gsoc"
+            className="nav_items nav_margin"
+          >
+            GSoC
+          </Link>
         </span>
       </div>
     );

@@ -9,7 +9,7 @@ import Home from "./pages/home/home";
 import Projects from "./pages/projects/project";
 import About from "./pages/about/about";
 import Gsoc from "./pages/gsoc/gsoc";
-import Gsoc from "./pages/timeline/timeline";
+import Timeline from "./pages/timeline/timeline";
 
 export default class App extends Component {
   render() {
