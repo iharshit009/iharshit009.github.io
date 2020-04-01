@@ -53,6 +53,14 @@ export default class Header extends Component {
           >
             About
           </Link>
+
+          <Link
+            activeClassName="nav_array_active"
+            to="/timeline"
+            className="nav_items nav_margin"
+          >
+            Timeline
+          </Link>
         </span>
       </div>
     );
