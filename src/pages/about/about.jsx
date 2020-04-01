@@ -7,8 +7,7 @@ export default class About extends Component {
     return (
       <div className="about">
         <div className="about-desc">
-          <div className="about-head">About Me</div>I am a Sophomore Undergrad
-          pursuing my Bachelors at Shri Govindram Seksaria Institute of Technology and Science. I am interested in the field of Mobile Development,
+          <div className="about-head">About Me</div>I am an avid open-source developer pursuing my Bachelors at Shri Govindram Seksaria Institute of Technology and Science. I am interested in the field of Mobile Development,
           Backend Development & Problem Solving & I love working on projects which
           simplifies lives. I've worked with various diverse development web and Mobile Products .
           <br />
@@ -103,18 +102,17 @@ export default class About extends Component {
 
           <br />
           <Heading>BackEnd</Heading>
-          <div className="about-desc">Django, Django Rest Framework, Firebase</div>
+          <div className="about-desc">Django, Django Rest Framework, Firebase, Firebase Store</div>
 
           <br />
           <Heading>Operating Systems</Heading>
           <div className="about-desc">Ubuntu, MacOS</div>
 
           <br />
-          {/* <Heading>DevOps</Heading>
+          <Heading>DevOps</Heading>
           <div className="about-desc">
-            Infrastructure as a Code, Terraform, GitLab-CI, AWS, Azure,
-            Container Orchestration
-          </div> */}
+            Infrastructure as a Code, GitLab-CI, Husky, ESLint
+          </div>
 
           <br />
           <Heading>Databases</Heading>
@@ -124,3 +122,4 @@ export default class About extends Component {
     );
   }
 }
+
