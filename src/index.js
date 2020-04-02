@@ -10,10 +10,18 @@ import Projects from "./pages/projects/project";
 import About from "./pages/about/about";
 import Gsoc from "./pages/gsoc/gsoc";
 import Timelinen from "./pages/timeline/timeline";
+// import {Provider} from 'react-redux';
+// import {createStore, applyMiddleware} from 'redux';
+// import reduxThunk from 'redux-thunk';
+// import reducers from './reducers';
+
+
+// const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 export default class App extends Component {
   render() {
     return (
+      // <Provider store={store}>
       <Router>
         <Header />
         <Switch>
@@ -24,6 +32,7 @@ export default class App extends Component {
           <Route path="/timeline" component={Timelinen} />
         </Switch>
       </Router>
+      // </Provider>
     );
   }
 }
