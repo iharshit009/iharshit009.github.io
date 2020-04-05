@@ -6,3 +6,5 @@ Hello! I am [Harshit Jain](https://iharshit009.github.io/), an sophomore undergr
 developer
 
 This is my portfolio, my tiny personal slice of the Internet.
+
+![Home Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen1.png)
