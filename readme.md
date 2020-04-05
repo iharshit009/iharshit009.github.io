@@ -8,3 +8,8 @@ developer
 This is my portfolio, my tiny personal slice of the Internet.
 
 ![Home Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen1.png)
+![Home1 Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen2.png)
+![Home2 Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen3.png)
+![Project Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen4.png)
+![About Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen5.png)
+![Timeline Page](https://github.com/iharshit009/iharshit009.github.io/blob/master/src/static/projects/screen6.png)
