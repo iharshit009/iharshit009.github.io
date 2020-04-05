@@ -11,13 +11,15 @@ import About from "./pages/about/about";
 import Gsoc from "./pages/gsoc/gsoc";
 import Timelinen from "./pages/timeline/timeline";
 // import {Provider} from 'react-redux';
+// import firebase from './firebase';
+// import * as auth from './auth';
 // import {createStore, applyMiddleware} from 'redux';
 // import reduxThunk from 'redux-thunk';
 // import reducers from './reducers';
-
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 
 // const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
-
+// export { firebase, auth };
 export default class App extends Component {
   render() {
     return (
